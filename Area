@@ -1,0 +1,9 @@
+a=int(input('Enter length '))
+b=int(input('Enter breadth '))
+c=float(input('Enter radius '))
+
+print('The area of square1 is ', a*a)
+print('The area of square2 is ', b*b)
+print('The area of rectangle is ', a*b)
+print('The area of circle is', 3.14*c*c)
+print('The area of triangle is ', 0.5*a*b)
