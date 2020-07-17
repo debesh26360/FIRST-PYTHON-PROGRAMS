@@ -1,0 +1,14 @@
+'''
+WAP to aaccept amount from user and day from user. Check whether amount is greater than 5000
+and day is Sunday and print discount
+
+NOTE: discount is 5000
+'''
+
+amount=float(input('Enter amount'))
+day=input('Enter a day')
+
+if(amount>5000 and day=='sunday'):
+    print('Discount: ',amount*0.05)
+else:
+    print('No discount')
