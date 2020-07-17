@@ -1,0 +1,17 @@
+'''
+WAP to accept 3 numbers from user and display greatest number
+
+'''
+''' since we cannot write a condition in else, we use elif'''
+
+
+a=int(input('Enter 1st number'))
+b=int(input('Enter 2nd number'))
+c=int(input('Enter 3rd number'))
+
+if(a>b and a>c):
+    print(a,' is greatest')
+elif(b>a and b>c):
+    print(b,' is greatest')
+else:
+    print(c,' is greatest')
