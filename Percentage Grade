@@ -1,0 +1,16 @@
+percent=int(input('Enter percentage '))
+
+if(percent>=75):
+    print('A grade')
+elif(percent>=65):
+    print('B grade')
+elif(percent>=55):
+    print('C grade')
+elif(percent>=45):
+    print('D grade')
+elif(percent>=35):
+    print('E grade')
+elif(percent<35):
+    print('Fail')
+else:
+    print('Invalid')
